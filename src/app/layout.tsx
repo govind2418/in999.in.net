@@ -1,0 +1,113 @@
+import type { Metadata } from "next";
+import { Poppins, Montserrat } from "next/font/google";
+import "./globals.css";
+import { SITE } from "@/lib/constants";
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["700", "800"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE.url),
+  title: SITE.title,
+  description: SITE.description,
+  keywords: [
+    "IN999",
+    "IN999 Game",
+    "online gaming platform India",
+    "IN999 register",
+    "IN999 download",
+    "WinGo",
+    "K3",
+    "5D",
+    "TRX",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: SITE.url,
+    siteName: SITE.fullName,
+    title: SITE.title,
+    description: SITE.description,
+    images: [
+      {
+        url: "/images/in999-hero.webp",
+        width: 1200,
+        height: 630,
+        alt: "IN999 Game",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE.title,
+    description: SITE.description,
+    images: ["/images/in999-hero.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  verification: {
+    google: "UWWFC1BQhro8tzO6aD8DLvQj8PmuxS51nr4qoZzWchM",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE.fullName,
+  url: SITE.url,
+  logo: `${SITE.url}/images/in999-hero.webp`,
+  sameAs: [],
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: SITE.url,
+    },
+  ],
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${poppins.variable} ${montserrat.variable} h-full antialiased`}
+    >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col">{children}</body>
+    </html>
+  );
+}
