@@ -30,9 +30,21 @@ export const FOOTER_PAGES = [
   { label: "APK Download", href: "/apk-download" },
 ] as const;
 
+export const GUIDE_PAGES = [
+  { label: "How to Play", href: "/how-to-play" },
+  { label: "Deposit & Withdrawal", href: "/deposit-withdrawal" },
+  { label: "Responsible Gaming", href: "/responsible-gaming" },
+] as const;
+
 export const LEGAL_LINKS = [
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
   { label: "Support", href: "/contact" },
   { label: "Telegram", href: "https://t.me/", external: true },
+] as const;
+
+// Sister sites in the same network — disclosed, reciprocal partner links (not a paid link scheme).
+export const PARTNER_SITES = [
+  { label: "Sikkim Game", href: "https://sikkimgame.co.in" },
+  { label: "Diuwin", href: "https://diuwin.in.net" },
 ] as const;

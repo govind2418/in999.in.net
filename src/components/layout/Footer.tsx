@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Crown, Send } from "lucide-react";
-import { SITE, FOOTER_PAGES, LEGAL_LINKS } from "@/lib/constants";
+import { SITE, FOOTER_PAGES, GUIDE_PAGES, LEGAL_LINKS, PARTNER_SITES } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1400px]">
         <div className="mx-auto h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
 
-        <div className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-5">
           <div>
             <Link href="/" className="flex items-center gap-2">
               <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
@@ -30,6 +30,21 @@ export function Footer() {
             </h4>
             <ul className="mt-4 flex flex-col gap-3">
               {FOOTER_PAGES.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-mist-dim transition-colors hover:text-gold">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+              Guides
+            </h4>
+            <ul className="mt-4 flex flex-col gap-3">
+              {GUIDE_PAGES.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-sm text-mist-dim transition-colors hover:text-gold">
                     {link.label}
@@ -67,6 +82,24 @@ export function Footer() {
 
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+              Our Network
+            </h4>
+            <ul className="mt-4 flex flex-col gap-3">
+              {PARTNER_SITES.map((site) => (
+                <li key={site.href}>
+                  <a
+                    href={site.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-mist-dim transition-colors hover:text-gold"
+                  >
+                    {site.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+
+            <h4 className="mt-8 text-sm font-semibold uppercase tracking-[0.2em] text-gold">
               Follow Us
             </h4>
             <div className="mt-4 flex items-center gap-3">
