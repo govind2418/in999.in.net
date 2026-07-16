@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Menu, X, Download, Crown } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 import { NAV_LINKS, REGISTER_URL, SITE } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
+import { LogoMark } from "@/components/ui/LogoMark";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,7 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-4 sm:px-8">
         <Link href="/" className="flex items-center gap-2">
           <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
-            <Crown className="h-5 w-5" strokeWidth={2.5} />
+            <LogoMark className="h-5 w-5" />
           </span>
           <span className="text-xl font-extrabold tracking-wide text-mist">
             {SITE.name}

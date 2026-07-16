@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Crown, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import { SITE, FOOTER_PAGES, GUIDE_PAGES, IN999_GUIDES, LEGAL_LINKS, PARTNER_SITES } from "@/lib/constants";
+import { LogoMark } from "@/components/ui/LogoMark";
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2">
               <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
-                <Crown className="h-5 w-5" strokeWidth={2.5} />
+                <LogoMark className="h-5 w-5" />
               </span>
               <span className="text-xl font-extrabold text-mist">
                 {SITE.name}
