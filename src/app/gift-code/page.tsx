@@ -12,7 +12,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Gift Code Guide: How Redemption Works & How to Spot Fakes",
+  title: "IN999 Gift Codes",
   description:
     "An independent guide explaining what IN999 gift codes are, how redemption generally works, where codes are shared, common failure reasons, and how to avoid gift-code scams.",
   path: "/gift-code",

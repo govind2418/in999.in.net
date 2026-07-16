@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Referral Program Explained: How Invite Rewards Work",
+  title: "IN999 Referral Program",
   description:
     "An independent guide to how referral programs generally work — sharing your link, what referrers and referees typically receive, and how to share responsibly without spamming or pressuring people.",
   path: "/referral-program",

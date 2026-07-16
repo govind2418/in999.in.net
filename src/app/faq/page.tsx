@@ -8,12 +8,11 @@ import { TableOfContents } from "@/components/ui/TableOfContents";
 import { Section } from "@/components/ui/Section";
 import { BackToHome } from "@/components/ui/BackToHome";
 import { FAQ_ITEMS } from "@/lib/data";
-import { SITE } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `FAQ | ${SITE.fullName}`,
+  title: "IN999 FAQ",
   description:
     "Answers to common questions about IN999 accounts, login, deposits and withdrawals, game fairness, bonuses, and support — grouped by topic.",
   path: "/faq",

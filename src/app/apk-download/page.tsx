@@ -9,12 +9,11 @@ import { Section } from "@/components/ui/Section";
 import { BackToHome } from "@/components/ui/BackToHome";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { SITE } from "@/lib/constants";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `IN999 APK Download & Verification Guide | ${SITE.fullName}`,
+  title: "IN999 APK Download",
   description:
     "An independent, APK-focused guide: what the IN999 APK file is, how to install it safely, how to spot a fake or modified copy, and how to keep it updated.",
   path: "/apk-download",

@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `Privacy Policy | ${SITE.fullName}`,
+  title: "IN999 Privacy Policy",
   description:
     "How this independent IN999 guide site handles visitor data — cookies, analytics, contact form submissions, and outbound links to the IN999 platform.",
   path: "/privacy",

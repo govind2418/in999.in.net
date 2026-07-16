@@ -13,7 +13,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "How to Play IN999: Step-by-Step Beginner's Guide 2026",
+  title: "How to Play IN999",
   description:
     "An independent, plain-language walkthrough of how to play IN999 — from account setup to placing your first prediction, reading results, and avoiding beginner mistakes.",
   path: "/how-to-play",

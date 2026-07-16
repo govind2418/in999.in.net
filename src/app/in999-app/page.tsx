@@ -22,7 +22,7 @@ import {
 const ACCENT = "#3ddc84";
 
 export const metadata = pageMetadata({
-  title: "IN999 App 2026: Features, Compatibility & What to Expect Before You Install",
+  title: "IN999 App",
   description:
     "An independent look at the IN999 app — key features, Android/iOS device compatibility, requested permissions, and a safety checklist to run before you install.",
   path: "/in999-app",

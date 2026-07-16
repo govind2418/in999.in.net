@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Responsible Gaming: Limits, Warning Signs & Support (18+)",
+  title: "IN999 Responsible Gaming",
   description:
     "IN999 responsible gaming guidance — why limits matter, how to recognise warning signs of problem gambling, self-exclusion options, and where to find support. 18+ only.",
   path: "/responsible-gaming",

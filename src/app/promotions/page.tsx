@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Promotions Guide: Types, Terms & How to Track Active Offers",
+  title: "IN999 Promotions",
   description:
     "An independent breakdown of how IN999 promotions typically work — welcome offers, recurring and seasonal promotions, wagering terms, and how to track what's currently active.",
   path: "/promotions",

@@ -20,7 +20,7 @@ import {
 const ACCENT = "#2dd4bf";
 
 export const metadata = pageMetadata({
-  title: "IN999 Download Guide 2026: Android APK, Browser & PC Access Explained",
+  title: "IN999 Download",
   description:
     "An independent walkthrough of every way to access IN999 — Android APK sideloading, mobile browser play, and PC access — with safety checks at each step.",
   path: "/in999-download",

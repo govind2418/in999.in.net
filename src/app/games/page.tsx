@@ -12,7 +12,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Games Explained: WinGo, K3, 5D, TRX, Sports & Casino",
+  title: "IN999 Games",
   description:
     "An independent walkthrough of every game category on IN999 — how WinGo, K3, 5D, TRX, Sports and Casino work, how rounds resolve, and how a beginner should choose.",
   path: "/games",

@@ -13,7 +13,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `IN999 Login Walkthrough: Sign In, Verify & Recover Access`,
+  title: "IN999 Sign In",
   description:
     "An independent, step-by-step IN999 login guide — what you need beforehand, OTP verification, password recovery, common errors, and security tips for returning players.",
   path: "/login",

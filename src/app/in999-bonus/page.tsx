@@ -13,7 +13,7 @@ import { Sparkles, Gift, CalendarClock, Users, FileText, AlertTriangle, HelpCirc
 const ACCENT = "#fb923c";
 
 export const metadata = pageMetadata({
-  title: "IN999 Bonus Guide 2026: Welcome Offers, Daily Rewards & Terms to Check",
+  title: "IN999 Bonus",
   description:
     "An independent breakdown of how IN999-style bonuses usually work — welcome offers, daily login rewards, referral bonuses — and the terms worth checking first.",
   path: "/in999-bonus",

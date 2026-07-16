@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 Deposit & Withdrawal Guide 2026: Methods, Steps & Timelines",
+  title: "IN999 Deposit & Withdrawal",
   description:
     "An independent guide to IN999 deposits and withdrawals — common payment methods, step-by-step instructions, processing times, and how to avoid failed transactions.",
   path: "/deposit-withdrawal",

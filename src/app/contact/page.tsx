@@ -13,7 +13,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `Contact Us | ${SITE.fullName}`,
+  title: "IN999 Contact",
   description:
     "Reach the editorial team behind this independent IN999 guide site — content corrections, general questions, and where to go for account, deposit, or withdrawal support.",
   path: "/contact",

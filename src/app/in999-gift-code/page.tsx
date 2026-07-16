@@ -13,7 +13,7 @@ import { Gift, Radio, ListOrdered, ShieldAlert, HelpCircle } from "lucide-react"
 const ACCENT = "#e879c9";
 
 export const metadata = pageMetadata({
-  title: "IN999 Gift Code Guide 2026: How Redeem Codes Work & Where to Find Them",
+  title: "IN999 Gift Code",
   description:
     "An independent explainer on how IN999 gift codes generally work, where they tend to be shared, how redemption works, and how to avoid fake code scams.",
   path: "/in999-gift-code",

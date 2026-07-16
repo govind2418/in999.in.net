@@ -13,7 +13,7 @@ import { LogIn, Smartphone, KeyRound, ShieldAlert, ShieldCheck, HelpCircle } fro
 const ACCENT = "#4a9eff";
 
 export const metadata = pageMetadata({
-  title: "IN999 Login Guide 2026: Step-by-Step Sign-In, OTP & Account Recovery",
+  title: "IN999 Login",
   description:
     "Independent walkthrough of the IN999 login process — signing in with your mobile number, OTP verification, password recovery, and fixes for the most common login errors.",
   path: "/in999-login",

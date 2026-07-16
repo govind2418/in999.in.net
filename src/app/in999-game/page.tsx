@@ -13,7 +13,7 @@ import { Dice5, Boxes, Grid3x3, TrendingUp, Trophy, Sparkles } from "lucide-reac
 const ACCENT = "#e2534d";
 
 export const metadata = pageMetadata({
-  title: "IN999 Game Guide 2026: WinGo, K3, 5D & TRX Colour Prediction Explained",
+  title: "IN999 Game",
   description:
     "A plain-language, independent guide to every IN999 Game mode — WinGo colour prediction, K3 dice, 5D numbers, TRX and more — with rules, strategy tips and safety notes.",
   path: "/in999-game",

@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: `Terms & Conditions | ${SITE.fullName}`,
+  title: "IN999 Terms & Conditions",
   description:
     "The terms governing use of this independent IN999 guide website, including our content disclaimer, age requirement, and outbound-link policy.",
   path: "/terms",

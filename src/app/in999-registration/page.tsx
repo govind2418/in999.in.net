@@ -13,7 +13,7 @@ import { UserPlus, Smartphone, Lock, ClipboardList, AlertTriangle, HelpCircle } 
 const ACCENT = "#a78bfa";
 
 export const metadata = pageMetadata({
-  title: "IN999 Registration Guide 2026: Account Setup, Verification & Common Errors",
+  title: "IN999 Registration",
   description:
     "Independent step-by-step guide to IN999 registration — creating an account, mobile OTP verification, setting a secure password, and fixing common sign-up errors.",
   path: "/in999-registration",

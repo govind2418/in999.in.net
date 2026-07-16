@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 VIP Club Explained: How Tier Systems Generally Work",
+  title: "IN999 VIP Club",
   description:
     "An independent look at how VIP or loyalty tier systems typically work on platforms like IN999 — how tiers are earned, what higher tiers usually offer, and realistic expectations.",
   path: "/vip-club",

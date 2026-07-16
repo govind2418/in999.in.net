@@ -13,7 +13,7 @@ import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = pageMetadata({
-  title: "IN999 App Download: Android Options, Setup & Safety Checklist",
+  title: "IN999 App Download",
   description:
     "An independent guide to downloading and installing the IN999 app on Android — sideloading steps, browser alternative, storage requirements and a safety checklist.",
   path: "/download-app",
