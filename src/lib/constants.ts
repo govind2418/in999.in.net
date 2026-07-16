@@ -1,12 +1,12 @@
 export const SITE = {
   name: "IN999",
-  fullName: "IN999 Game",
-  domain: "in999.in.net",
-  url: "https://in999.in.net",
-  title: "IN999 Game | Official Gaming Platform | Register & Download",
+  fullName: "IN999 Game Hub",
+  domain: "in999.pages.dev",
+  url: "https://in999.pages.dev",
+  title: "IN999 Game Hub | Guides for Login, App, Download & Gift Codes",
   description:
-    "Play IN999 Game with instant registration, secure wallet, fast withdrawals and premium gaming experience.",
-  tagline: "India's Trusted Gaming Platform",
+    "Independent IN999 Game guide hub covering login steps, app download, gift codes, bonuses and registration walkthroughs — written for players, not affiliated with any operator.",
+  tagline: "Your Independent IN999 Guide & Resource Hub",
 } as const;
 
 // Temporary registration/login destination until the in999.in.net wallet platform goes live.
@@ -15,8 +15,8 @@ export const REGISTER_URL = "https://www.jaiclub15.com/#/register?invitationCode
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "Games", href: "/games" },
+  { label: "IN999 Guide", href: "/in999-game" },
   { label: "Login", href: "/login" },
-  { label: "Promotions", href: "/promotions" },
   { label: "Download", href: "/download-app" },
   { label: "FAQ", href: "/faq" },
 ] as const;
@@ -34,6 +34,17 @@ export const GUIDE_PAGES = [
   { label: "How to Play", href: "/how-to-play" },
   { label: "Deposit & Withdrawal", href: "/deposit-withdrawal" },
   { label: "Responsible Gaming", href: "/responsible-gaming" },
+] as const;
+
+// Long-form independent guide pages targeting IN999-related search queries.
+export const IN999_GUIDES = [
+  { label: "IN999 Game", href: "/in999-game" },
+  { label: "IN999 Login", href: "/in999-login" },
+  { label: "IN999 App", href: "/in999-app" },
+  { label: "IN999 Download", href: "/in999-download" },
+  { label: "IN999 Gift Code", href: "/in999-gift-code" },
+  { label: "IN999 Registration", href: "/in999-registration" },
+  { label: "IN999 Bonus", href: "/in999-bonus" },
 ] as const;
 
 export const LEGAL_LINKS = [

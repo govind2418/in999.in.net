@@ -15,20 +15,24 @@ export function Hero() {
             </span>
 
             <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-mist sm:text-5xl lg:text-6xl">
-              Play Smart.
+              Play Informed.
               <br />
-              <span className="gold-text">Win Big.</span>
+              <span className="gold-text">Play IN999 Smart.</span>
             </h1>
 
             <p className="max-w-md text-base leading-relaxed text-mist-dim sm:text-lg">
-              India&apos;s trusted gaming platform — instant registration, a secure
-              wallet, and lightning-fast withdrawals, 24x7.
+              An independent guide to the IN999 gaming platform — plain-English
+              walkthroughs for login, registration, the Android app, gift
+              codes and bonuses, written for players and not affiliated with
+              the operator. These are real-money games with no guaranteed
+              outcomes, so browse the guides first and only play with what
+              you can afford to lose.
             </p>
 
             <div className="flex flex-wrap items-center gap-3">
-              <Button variant="gold" href={REGISTER_URL}>Register</Button>
+              <Button variant="gold" href={REGISTER_URL}>Visit IN999</Button>
               <Button variant="outline" href="/login" icon={<LogIn className="h-4 w-4" />}>
-                Login
+                Login Guide
               </Button>
             </div>
           </div>

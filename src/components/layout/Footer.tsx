@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Crown, Send } from "lucide-react";
-import { SITE, FOOTER_PAGES, GUIDE_PAGES, LEGAL_LINKS, PARTNER_SITES } from "@/lib/constants";
+import { SITE, FOOTER_PAGES, GUIDE_PAGES, IN999_GUIDES, LEGAL_LINKS, PARTNER_SITES } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1400px]">
         <div className="mx-auto h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
 
-        <div className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-6">
           <div>
             <Link href="/" className="flex items-center gap-2">
               <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
@@ -41,7 +41,22 @@ export function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
-              Guides
+              IN999 Guides
+            </h3>
+            <ul className="mt-4 flex flex-col gap-3">
+              {IN999_GUIDES.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-mist-dim transition-colors hover:text-gold">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-gold">
+              Player Guides
             </h3>
             <ul className="mt-4 flex flex-col gap-3">
               {GUIDE_PAGES.map((link) => (

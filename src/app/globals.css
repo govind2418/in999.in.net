@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --navy-950: #071225;
-  --card: #0e1b33;
+  --navy-950: #050403;
+  --card: #14110a;
 
-  --gold: #ffd34a;
+  --gold: #f4c430;
+  --gold-deep: #b8860b;
 
-  --mist: #ffffff;
-  --mist-dim: #b7c4d8;
+  --mist: #f7f3e9;
+  --mist-dim: #a89f8c;
 
   --background: var(--navy-950);
   --foreground: var(--mist);
@@ -23,6 +24,7 @@
   --color-card: var(--card);
 
   --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
 
   --color-mist: var(--mist);
   --color-mist-dim: var(--mist-dim);
@@ -34,7 +36,7 @@
 }
 
 * {
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(244, 196, 48, 0.08);
 }
 
 html {
@@ -43,6 +45,7 @@ html {
 
 body {
   background: var(--navy-950);
+  background-image: radial-gradient(circle at 15% 0%, rgba(244, 196, 48, 0.06), transparent 45%);
   color: var(--foreground);
   font-family: var(--font-body), sans-serif;
 }
@@ -52,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 ::selection {
-  background: rgba(255, 211, 74, 0.3);
+  background: rgba(244, 196, 48, 0.3);
   color: #fff;
 }
 
@@ -60,7 +63,7 @@ h1, h2, h3, h4 {
 @layer utilities {
   .card {
     background: var(--color-card);
-    border: 1px solid rgba(255, 211, 74, 0.15);
+    border: 1px solid rgba(244, 196, 48, 0.18);
     border-radius: var(--radius-card);
   }
 
@@ -69,16 +72,16 @@ h1, h2, h3, h4 {
   }
 
   .gold-btn {
-    background: var(--color-gold);
-    color: var(--color-navy-950);
+    background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-deep) 100%);
+    color: #0a0704;
   }
 
   .gold-border {
-    border: 1px solid rgba(255, 211, 74, 0.35);
+    border: 1px solid rgba(244, 196, 48, 0.4);
   }
 
   .shadow-soft {
-    box-shadow: 0 12px 32px rgba(2, 8, 23, 0.35);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
   }
 }
 

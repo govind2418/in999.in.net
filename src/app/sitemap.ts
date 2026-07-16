@@ -18,6 +18,13 @@ const ROUTES = [
   { path: "/contact", priority: 0.5, changeFrequency: "monthly" as const },
   { path: "/privacy", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "/terms", priority: 0.3, changeFrequency: "yearly" as const },
+  { path: "/in999-game", priority: 0.85, changeFrequency: "weekly" as const },
+  { path: "/in999-login", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "/in999-registration", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "/in999-app", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "/in999-download", priority: 0.8, changeFrequency: "weekly" as const },
+  { path: "/in999-gift-code", priority: 0.7, changeFrequency: "daily" as const },
+  { path: "/in999-bonus", priority: 0.7, changeFrequency: "daily" as const },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

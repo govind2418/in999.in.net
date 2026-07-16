@@ -63,12 +63,12 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: "UWWFC1BQhro8tzO6aD8DLvQj8PmuxS51nr4qoZzWchM",
+    google: "Zb4qAWrP_XOfjasoUuvn2towHfi-UzMn9PjbNBOvSuc",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#071225",
+  themeColor: "#050403",
   width: "device-width",
   initialScale: 1,
 };
