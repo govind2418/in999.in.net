@@ -14,10 +14,9 @@ export function Hero() {
               {SITE.tagline}
             </span>
 
-            <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-mist sm:text-5xl lg:text-6xl">
-              Play Informed.
-              <br />
-              <span className="gold-text">Play IN999 Smart.</span>
+            <h1 className="text-3xl font-extrabold leading-[1.15] tracking-tight text-mist sm:text-4xl lg:text-5xl">
+              <span className="gold-text">IN999 Game</span> – Login, APK Download, Gift Codes
+              &amp; Complete Guide
             </h1>
 
             <p className="max-w-md text-base leading-relaxed text-mist-dim sm:text-lg">
