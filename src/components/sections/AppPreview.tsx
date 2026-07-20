@@ -24,9 +24,9 @@ const PREVIEW_SHOTS: PreviewShot[] = [
   {
     src: "/images/in999-attendance-bonus-banner.webp",
     alt: "IN999 attendance bonus banner above the lottery game grid",
-    title: "Attendance Bonus & the Lottery Games",
+    title: "Daily Rewards & Game Center",
     description:
-      "Above the fold, IN999 advertises an attendance bonus for returning players. Underneath it is the Lottery tab, filtered to show WinGo, K3 and 5D side by side — the three prediction formats most new visitors search for by name. Notice the platform also flags counterfeit sites impersonating IN999, which is worth remembering before you type a URL into your browser.",
+      "The IN999 Game platform combines daily attendance rewards with quick access to its most popular prediction games, including WinGo, K3, and 5D. Players can view active promotions, explore featured game modes, and manage their account from one central interface while using the official platform for a secure experience.",
     linkLabel: "See the full games breakdown",
     href: "/games",
   },
