@@ -1,7 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Send } from "lucide-react";
 import { SITE, FOOTER_PAGES, GUIDE_PAGES, IN999_GUIDES, LEGAL_LINKS, PARTNER_SITES } from "@/lib/constants";
-import { LogoMark } from "@/components/ui/LogoMark";
 
 export function Footer() {
   return (
@@ -11,14 +11,14 @@ export function Footer() {
 
         <div className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-6">
           <div>
-            <Link href="/" className="flex items-center gap-2">
-              <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
-                <LogoMark className="h-5 w-5" />
-              </span>
-              <span className="text-xl font-extrabold text-mist">
-                {SITE.name}
-                <span className="gold-text">.</span>
-              </span>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/in999-logo.webp"
+                alt="IN999 logo"
+                width={320}
+                height={85}
+                className="h-8 w-auto"
+              />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-mist-dim">
               {SITE.description}

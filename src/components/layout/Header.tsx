@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, Download } from "lucide-react";
-import { NAV_LINKS, REGISTER_URL, SITE } from "@/lib/constants";
+import { NAV_LINKS, REGISTER_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
-import { LogoMark } from "@/components/ui/LogoMark";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,14 +25,15 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-4 sm:px-8">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="gold-btn flex h-9 w-9 items-center justify-center rounded-xl">
-            <LogoMark className="h-5 w-5" />
-          </span>
-          <span className="text-xl font-extrabold tracking-wide text-mist">
-            {SITE.name}
-            <span className="gold-text">.</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/in999-logo.webp"
+            alt="IN999 logo"
+            width={320}
+            height={85}
+            priority
+            className="h-8 w-auto sm:h-9"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
