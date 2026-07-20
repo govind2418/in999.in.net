@@ -51,6 +51,7 @@ export const LEGAL_LINKS = [
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
   { label: "Support", href: "/contact" },
+  { label: "Sitemap", href: "/sitemap.xml" },
   { label: "Telegram", href: "https://t.me/", external: true },
 ] as const;
 
