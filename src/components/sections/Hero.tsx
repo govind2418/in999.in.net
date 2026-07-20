@@ -20,12 +20,13 @@ export function Hero() {
             </h1>
 
             <p className="max-w-md text-base leading-relaxed text-mist-dim sm:text-lg">
-              An independent guide to the IN999 gaming platform — plain-English
-              walkthroughs for login, registration, the Android app, gift
-              codes and bonuses, written for players and not affiliated with
-              the operator. These are real-money games with no guaranteed
-              outcomes, so browse the guides first and only play with what
-              you can afford to lose.
+              IN999 Game is your complete resource for login, registration, APK
+              download, bonus offers, gift codes, WinGo, Aviator, K3, 5D, TRX,
+              promotions, screenshots, FAQs, and account support. Find the
+              latest platform updates, step-by-step information, and
+              everything you need in one place before getting started. If you
+              choose to play, do so responsibly and only with money you can
+              afford to lose.
             </p>
 
             <div className="flex flex-wrap items-center gap-3">
