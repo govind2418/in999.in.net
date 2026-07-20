@@ -57,7 +57,7 @@ export default function In999GiftCodePage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 Gift Code" }]} />
+        <Breadcrumb items={[{ label: "IN999 Gift Code" }]} path="/in999-gift-code" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Gift Code: How Redeem Codes Actually Work"

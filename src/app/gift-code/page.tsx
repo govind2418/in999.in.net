@@ -63,7 +63,7 @@ export default function GiftCodePage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Gift Code" }]} />
+        <Breadcrumb items={[{ label: "Gift Code" }]} path="/gift-code" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Gift Code: How Redemption Really Works"

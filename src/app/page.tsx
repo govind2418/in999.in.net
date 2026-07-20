@@ -12,13 +12,15 @@ import { LatestUpdates } from "@/components/sections/LatestUpdates";
 import { FAQ } from "@/components/sections/FAQ";
 import { TableOfContents } from "@/components/ui/TableOfContents";
 import { SITE } from "@/lib/constants";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, pageSchema } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: SITE.title,
   description: SITE.description,
   path: "/",
 });
+
+const homeSchema = pageSchema(SITE.fullName, "/");
 
 const HOME_TOC = [
   { id: "preview", label: "IN999 Screens" },
@@ -35,6 +37,10 @@ const HOME_TOC = [
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
+      />
       <Header />
       <main className="flex-1">
         <Hero />

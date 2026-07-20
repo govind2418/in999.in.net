@@ -43,7 +43,7 @@ export default function GamesPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Games" }]} />
+        <Breadcrumb items={[{ label: "Games" }]} path="/games" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Games: A Category-by-Category Guide"

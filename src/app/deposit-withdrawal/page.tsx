@@ -47,7 +47,7 @@ export default function DepositWithdrawalPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Deposit & Withdrawal" }]} />
+        <Breadcrumb items={[{ label: "Deposit & Withdrawal" }]} path="/deposit-withdrawal" />
         <PageHero
           eyebrow="Wallet Guide"
           title="IN999 Deposit & Withdrawal Guide"

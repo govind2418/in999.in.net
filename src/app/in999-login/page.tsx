@@ -41,7 +41,7 @@ export default function In999LoginPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 Login" }]} />
+        <Breadcrumb items={[{ label: "IN999 Login" }]} path="/in999-login" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Login: The Complete Sign-In Guide"

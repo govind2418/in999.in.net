@@ -57,7 +57,7 @@ export default function LoginPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Login" }]} />
+        <Breadcrumb items={[{ label: "Login" }]} path="/login" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Login: Complete Sign-In Walkthrough"

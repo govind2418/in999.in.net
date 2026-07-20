@@ -44,7 +44,7 @@ export default function In999GamePage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 Game" }]} />
+        <Breadcrumb items={[{ label: "IN999 Game" }]} path="/in999-game" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Game: The Complete Player's Guide"

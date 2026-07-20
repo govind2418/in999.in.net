@@ -57,7 +57,7 @@ export default function In999BonusPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 Bonus" }]} />
+        <Breadcrumb items={[{ label: "IN999 Bonus" }]} path="/in999-bonus" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Bonus: Understanding Offers & Their Fine Print"

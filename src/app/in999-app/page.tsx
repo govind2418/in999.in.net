@@ -82,7 +82,7 @@ export default function In999AppPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 App" }]} />
+        <Breadcrumb items={[{ label: "IN999 App" }]} path="/in999-app" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 App: Features, Compatibility & Pre-Install Checklist"

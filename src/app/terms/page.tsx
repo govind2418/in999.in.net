@@ -34,7 +34,7 @@ export default function TermsPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Terms & Conditions" }]} />
+        <Breadcrumb items={[{ label: "Terms & Conditions" }]} path="/terms" />
         <PageHero
           eyebrow="Legal"
           title="Terms & Conditions"

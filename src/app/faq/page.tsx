@@ -255,7 +255,7 @@ export default function FAQPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "FAQ" }]} />
+        <Breadcrumb items={[{ label: "FAQ" }]} path="/faq" />
         <PageHero
           eyebrow="Support"
           title="Frequently Asked Questions"

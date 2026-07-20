@@ -39,7 +39,7 @@ export default function VipClubPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "VIP Club" }]} />
+        <Breadcrumb items={[{ label: "VIP Club" }]} path="/vip-club" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 VIP Club: How Tier Systems Generally Work"

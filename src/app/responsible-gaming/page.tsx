@@ -56,7 +56,7 @@ export default function ResponsibleGamingPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Responsible Gaming" }]} />
+        <Breadcrumb items={[{ label: "Responsible Gaming" }]} path="/responsible-gaming" />
         <PageHero
           eyebrow="Play Safely — 18+"
           title="IN999 Responsible Gaming"

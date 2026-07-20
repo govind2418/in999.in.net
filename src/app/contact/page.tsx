@@ -58,7 +58,7 @@ export default function ContactPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Contact" }]} />
+        <Breadcrumb items={[{ label: "Contact" }]} path="/contact" />
         <PageHero
           eyebrow="Contact"
           title="Get in Touch"

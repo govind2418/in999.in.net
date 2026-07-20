@@ -39,7 +39,7 @@ export default function PromotionsPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Promotions" }]} />
+        <Breadcrumb items={[{ label: "Promotions" }]} path="/promotions" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Promotions: A Practical Overview"

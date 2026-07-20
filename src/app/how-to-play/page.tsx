@@ -98,7 +98,7 @@ export default function HowToPlayPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "How to Play" }]} />
+        <Breadcrumb items={[{ label: "How to Play" }]} path="/how-to-play" />
         <PageHero
           eyebrow="Beginner Guide"
           title="How to Play IN999: A Step-by-Step Guide"

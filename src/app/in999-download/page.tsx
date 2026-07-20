@@ -62,7 +62,7 @@ export default function In999DownloadPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "IN999 Download" }]} />
+        <Breadcrumb items={[{ label: "IN999 Download" }]} path="/in999-download" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Download: APK, Browser & PC Access Explained"

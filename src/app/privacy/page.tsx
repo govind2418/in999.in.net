@@ -34,7 +34,7 @@ export default function PrivacyPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Privacy Policy" }]} />
+        <Breadcrumb items={[{ label: "Privacy Policy" }]} path="/privacy" />
         <PageHero
           eyebrow="Legal"
           title="Privacy Policy"

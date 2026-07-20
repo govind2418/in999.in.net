@@ -38,7 +38,7 @@ export default function ReferralProgramPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Referral Program" }]} />
+        <Breadcrumb items={[{ label: "Referral Program" }]} path="/referral-program" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 Referral Program: How Invite Rewards Work"

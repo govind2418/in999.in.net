@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
-import { SITE } from "@/lib/constants";
+import { pageSchema } from "@/lib/seo";
 
 export type BreadcrumbItem = {
   label: string;
@@ -9,21 +9,14 @@ export type BreadcrumbItem = {
 
 type BreadcrumbProps = {
   items: BreadcrumbItem[];
+  /** Route path for this page, e.g. "/in999-game" — used for the WebPage schema URL. */
+  path: string;
 };
 
-export function Breadcrumb({ items }: BreadcrumbProps) {
+export function Breadcrumb({ items, path }: BreadcrumbProps) {
   const allItems: BreadcrumbItem[] = [{ label: "Home", href: "/" }, ...items];
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: allItems.map((item, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: item.label,
-      item: item.href ? `${SITE.url}${item.href === "/" ? "" : item.href}` : undefined,
-    })),
-  };
+  const currentPage = items[items.length - 1]?.label ?? "Home";
+  const schema = pageSchema(currentPage, path, items);
 
   return (
     <nav aria-label="Breadcrumb" className="relative px-5 pt-24 sm:px-8 sm:pt-28">

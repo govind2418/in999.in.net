@@ -83,19 +83,6 @@ const organizationSchema = {
   sameAs: [],
 };
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: SITE.url,
-    },
-  ],
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -110,10 +97,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </head>
       <body className="min-h-full flex flex-col pb-[68px] sm:pb-[64px]">

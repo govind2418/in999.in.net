@@ -40,7 +40,7 @@ export default function DownloadAppPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "Download App" }]} />
+        <Breadcrumb items={[{ label: "Download App" }]} path="/download-app" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 App Download: Setup & Safety Guide"

@@ -41,7 +41,7 @@ export default function ApkDownloadPage() {
     <>
       <Header />
       <main className="flex-1">
-        <Breadcrumb items={[{ label: "APK Download" }]} />
+        <Breadcrumb items={[{ label: "APK Download" }]} path="/apk-download" />
         <PageHero
           eyebrow="Independent Guide"
           title="IN999 APK: Download, Verify & Update Guide"
