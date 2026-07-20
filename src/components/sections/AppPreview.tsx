@@ -15,9 +15,9 @@ const PREVIEW_SHOTS: PreviewShot[] = [
   {
     src: "/images/in999-download-app-banner.webp",
     alt: "IN999 download app banner with the popular game lobby",
-    title: "The IN999 App Download Banner",
+    title: "Explore the IN999 Platform",
     description:
-      "This is the promotional banner IN999 shows on its home screen, encouraging players to install the Android app for daily gift-code alerts. Behind it sits the game lobby itself, with Aviator and a cricket-betting title both marked as popular picks alongside the platform's other categories. It's a useful first look at how the lobby is laid out before you ever open an account.",
+      "The IN999 platform is designed to give players quick access to login, registration, APK download, bonus offers, gift codes, promotions, and the most popular games including WinGo, Aviator, K3, 5D, TRX, Sports, and Casino. This section showcases the platform interface, helping you understand its features, navigation, and available services before creating an account or making your first deposit.",
     linkLabel: "Read the IN999 download guide",
     href: "/in999-download",
   },
