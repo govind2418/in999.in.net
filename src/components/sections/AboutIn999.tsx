@@ -10,17 +10,28 @@ export function AboutIn999() {
             About Us
           </span>
           <h2 className="text-3xl font-bold text-mist sm:text-4xl">What is {SITE.name}?</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-mist-dim sm:text-base">
-            {SITE.fullName} explains the {SITE.name} platform in independent, easy-to-follow
-            guides — from the first time you sign in to the moment you request a withdrawal.
-            The {SITE.name} game lobby centres on quick, timer-based rounds like WinGo and the
-            crash-style Aviator, alongside K3, 5D and TRX prediction formats, cricket and sports
-            markets, and a casino section with slots and live tables. Every category runs
-            through one shared wallet, and new accounts are usually offered a first-deposit
-            bonus plus a daily attendance bonus for logging in on consecutive days. We
-            don&apos;t operate {SITE.name}; we simply document how it works so you can decide
-            for yourself whether it&apos;s worth your time.
-          </p>
+          <div className="mx-auto mt-4 max-w-2xl space-y-4 text-left text-sm leading-relaxed text-mist-dim sm:text-base">
+            <p>
+              IN999 is an online gaming platform that offers a variety of entertainment
+              experiences through a single account. Players can access popular games such as
+              WinGo, Aviator, K3, 5D, TRX, Sports, and Casino, along with account management,
+              promotional offers, and wallet services from one centralized dashboard.
+            </p>
+            <p>
+              The platform is designed to provide quick registration, secure login, convenient
+              deposits and withdrawals, and regular promotional campaigns, including welcome
+              rewards, gift codes, and daily activity bonuses. Whether you&apos;re exploring
+              prediction games, sports entertainment, or live casino experiences, IN999 brings
+              multiple categories together in one easy-to-use interface.
+            </p>
+            <p>
+              On this website, you&apos;ll find the latest information about IN999 Login, APK
+              Download, Register, Gift Codes, Bonuses, game guides, platform features, and
+              important updates, helping you understand the platform before creating an account
+              or participating in any activities. Always review the latest terms and conditions
+              for promotions, bonuses, and account features, as they may change over time.
+            </p>
+          </div>
         </div>
 
         <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
