@@ -15,8 +15,8 @@ export function WhyChooseUs() {
       <div className="mx-auto max-w-[1400px]">
         <SectionHeading
           eyebrow="Why IN999"
-          title="What Players Notice First"
-          subtitle="A quick summary of the platform basics, based on what we've documented across our guides. None of this is a promise of results — treat it as a starting point, not a guarantee."
+          title="Why Players Choose IN999"
+          subtitle="From quick registration and secure account management to popular games, promotional offers, and regular platform updates, IN999 brings together the features players look for in one place. Whether you're exploring WinGo, Aviator, K3, 5D, TRX, Sports, or Casino, the platform offers an organized and user-friendly experience across every category."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
