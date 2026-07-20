@@ -20,7 +20,7 @@ export function PopularGames() {
         <SectionHeading
           eyebrow="Games"
           title="Popular Games"
-          subtitle="Six formats, all built for quick rounds — read the rules before you stake real money. Outcomes in every format below are down to chance, not strategy, so treat these as entertainment rather than income."
+          subtitle="Explore the most popular games available on the IN999 platform, including WinGo, Aviator, K3, 5D, TRX, Sports, and Casino. Each game offers different gameplay, rules, and reward structures, allowing players to choose the experience that best matches their interests. Browse every category to understand how each game works before participating."
         />
 
         <div className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
