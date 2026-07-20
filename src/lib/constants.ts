@@ -1,8 +1,8 @@
 export const SITE = {
   name: "IN999",
   fullName: "IN999 Game Hub",
-  domain: "in999.pages.dev",
-  url: "https://in999.pages.dev",
+  domain: "in999.in.net",
+  url: "https://in999.in.net",
   title: "IN999 Game Hub | Guides for Login, App, Download & Gift Codes",
   description:
     "Independent IN999 Game guide hub covering login steps, app download, gift codes, bonuses and registration walkthroughs — written for players, not affiliated with any operator.",

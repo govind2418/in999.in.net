@@ -113,7 +113,7 @@ export default function ApkDownloadPage() {
                   </div>
                   <div className="relative h-24 w-24 overflow-hidden rounded-xl bg-white p-2">
                     <Image
-                      src="/images/apk-qr.webp"
+                      src="/images/in999-apk-qr.webp"
                       alt="Scan to download the IN999 Android APK"
                       fill
                       loading="lazy"

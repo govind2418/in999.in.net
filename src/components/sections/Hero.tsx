@@ -39,13 +39,13 @@ export function Hero() {
 
           {/* Hero image */}
           <div className="relative flex justify-center">
-            <div className="animate-float relative h-[280px] w-full max-w-[480px] sm:h-[380px] lg:h-[480px]">
+            <div className="animate-float relative h-[320px] w-full max-w-[560px] sm:h-[420px] lg:h-[560px]">
               <Image
                 src="/images/in999-hero.webp"
-                alt="IN999 Game — premium online gaming platform"
+                alt="IN999 game lobby — WinGo, Aviator, K3, 5D and TRX prediction rounds"
                 fill
                 priority
-                sizes="(max-width: 1024px) 90vw, 45vw"
+                sizes="(max-width: 1024px) 92vw, 48vw"
                 className="object-contain shadow-soft"
               />
             </div>

@@ -14,7 +14,7 @@ import Link from "next/link";
 export const metadata = pageMetadata({
   title: "IN999 Games",
   description:
-    "An independent walkthrough of every game category on IN999 — how WinGo, K3, 5D, TRX, Sports and Casino work, how rounds resolve, and how a beginner should choose.",
+    "An independent walkthrough of every game category on IN999 — how WinGo, Aviator, K3, 5D, TRX, Sports and Casino work, how rounds resolve, and how a beginner should choose.",
   path: "/games",
 });
 
@@ -30,6 +30,7 @@ const TOC = [
 
 const GAME_DETAILS: Record<string, string> = {
   WinGo: "The round most new visitors search for by name. Every cycle you're shown a countdown, and before it hits zero you pick a colour (green, red, or the rarer violet) or a specific number from 0-9. When the timer ends, the result is revealed and payouts are calculated instantly. Colour bets are the lowest-variance way to play WinGo; number bets pay far more but land less often, which is the trade-off every WinGo player is weighing each round.",
+  Aviator: "A single plane climbs and a multiplier rises with it — you decide how long to let it run before cashing out, and the round ends the moment the plane 'flies away.' Cash out too early and you bank a small multiplier; wait too long and the round can end before you tap out, losing the stake. It's one of the fastest, highest-variance formats in the lobby, which is also why it's worth capping how much of a session budget goes toward it.",
   K3: "Three dice, one outcome. Instead of a colour wheel, K3 asks you to predict totals, specific combinations, or whether the sum will land big/small and odd/even. Because there are more possible dice combinations than WinGo colours, K3 rewards players who enjoy tracking patterns across several rounds rather than reacting to a single spin.",
   "5D": "A five-position number format — think of it as five independent digit slots that each resolve between 0 and 9. You can bet on a single position, a combination across positions, or broader sum/parity outcomes. 5D has the steepest learning curve of the prediction games simply because there are more variables to track at once, so it tends to suit players who've already spent time with WinGo or K3.",
   TRX: "TRX-style rounds source their result from a public, blockchain-referenced value rather than an in-house randomiser alone, which is why players who care about being able to independently sanity-check a result gravitate toward this mode. Gameplay mechanics (colour and number predictions, short timers) look similar to WinGo, but the appeal is the verifiable outcome source.",
@@ -62,7 +63,7 @@ export default function GamesPage() {
               </p>
               <p>
                 The catalogue splits naturally into two families. The first is short, timed prediction
-                rounds — WinGo, K3, 5D and TRX — where a betting window opens, closes, and resolves within
+                rounds — WinGo, Aviator, K3, 5D and TRX — where a betting window opens, closes, and resolves within
                 a minute or two. The second is longer-form formats — Sports and Casino — that behave more
                 like a traditional sportsbook or casino floor, with results tied to real fixtures or
                 spin-based mechanics instead of a repeating clock. Knowing which family a mode belongs to
@@ -183,7 +184,7 @@ export default function GamesPage() {
                   <h3 className="mb-1 text-sm font-semibold text-mist">Do I need a separate account for each game category?</h3>
                   <p>
                     No — all six categories typically sit in one shared lobby under a single account and
-                    wallet, so you can move between WinGo, K3, 5D, TRX, Sports and Casino without a
+                    wallet, so you can move between WinGo, Aviator, K3, 5D, TRX, Sports and Casino without a
                     separate sign-up for each.
                   </p>
                 </div>

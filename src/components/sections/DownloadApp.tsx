@@ -39,8 +39,8 @@ export function DownloadApp() {
           <Card className="mx-auto flex w-full max-w-sm flex-col items-center gap-4 p-8 text-center">
             <div className="relative h-40 w-40 overflow-hidden rounded-xl bg-white p-2">
               <Image
-                src="/images/apk-qr.webp"
-                alt="Scan to download the IN999 Android app"
+                src="/images/in999-apk-qr.webp"
+                alt="IN999 APK download QR code — scan to install the IN999 Android app"
                 fill
                 loading="lazy"
                 sizes="160px"

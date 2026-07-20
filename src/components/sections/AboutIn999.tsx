@@ -13,19 +13,25 @@ export function AboutIn999() {
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-mist-dim sm:text-base">
             {SITE.fullName} explains the {SITE.name} platform in independent, easy-to-follow
             guides — from the first time you sign in to the moment you request a withdrawal.
-            We don&apos;t operate {SITE.name}; we simply document how it works so you can decide
+            The {SITE.name} game lobby centres on quick, timer-based rounds like WinGo and the
+            crash-style Aviator, alongside K3, 5D and TRX prediction formats, cricket and sports
+            markets, and a casino section with slots and live tables. Every category runs
+            through one shared wallet, and new accounts are usually offered a first-deposit
+            bonus plus a daily attendance bonus for logging in on consecutive days. We
+            don&apos;t operate {SITE.name}; we simply document how it works so you can decide
             for yourself whether it&apos;s worth your time.
           </p>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="text-lg font-semibold text-mist">Game Formats</h3>
             <p className="mt-3 text-sm leading-relaxed text-mist-dim">
               {SITE.name} centres on short, fast-paced rounds — colour-prediction titles like
-              WinGo alongside K3, 5D and TRX, plus casino and sports markets. Rounds finish in
-              under a minute, which keeps things quick but also means losses can add up just as
-              fast. Read our full{" "}
+              WinGo alongside K3, 5D and TRX, the crash-style Aviator multiplier game, plus
+              cricket-led sports markets and a casino section with slots and live tables.
+              Rounds finish in under a minute, which keeps things quick but also means losses
+              can add up just as fast. Read our full{" "}
               <Link href="/in999-game" className="text-gold underline underline-offset-2 hover:text-gold/80">
                 IN999 game guide
               </Link>{" "}
@@ -56,6 +62,22 @@ export function AboutIn999() {
                 IN999 bonus guide
               </Link>{" "}
               before you opt into anything.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-mist">Referrals &amp; VIP</h3>
+            <p className="mt-3 text-sm leading-relaxed text-mist-dim">
+              Inviting friends can unlock a commission on their activity, and returning players
+              can climb VIP tiers for extra perks. Our{" "}
+              <Link href="/referral-program" className="text-gold underline underline-offset-2 hover:text-gold/80">
+                referral program guide
+              </Link>{" "}
+              and{" "}
+              <Link href="/vip-club" className="text-gold underline underline-offset-2 hover:text-gold/80">
+                VIP club guide
+              </Link>{" "}
+              explain how each tier and commission tier actually works.
             </p>
           </div>
         </div>

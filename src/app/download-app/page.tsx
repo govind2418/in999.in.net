@@ -79,7 +79,7 @@ export default function DownloadAppPage() {
                 <Card className="mx-auto flex w-full max-w-[220px] flex-col items-center gap-3 p-6 text-center">
                   <div className="relative h-28 w-28 overflow-hidden rounded-xl bg-white p-2">
                     <Image
-                      src="/images/apk-qr.webp"
+                      src="/images/in999-apk-qr.webp"
                       alt="Scan to open the IN999 Android app download page"
                       fill
                       loading="lazy"

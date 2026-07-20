@@ -5,6 +5,7 @@ import { POPULAR_GAMES } from "@/lib/data";
 
 const GAME_NOTES: Record<string, string> = {
   WinGo: "Pick a colour or number each round; results land in about a minute.",
+  Aviator: "Cash out before the multiplier crashes — a fast, high-variance round.",
   K3: "Roll-based dice game with several bet types and payout tiers.",
   "5D": "Predict multi-digit outcomes across five number positions.",
   TRX: "Round results are tied to blockchain data for extra transparency.",
@@ -22,7 +23,7 @@ export function PopularGames() {
           subtitle="Six formats, all built for quick rounds — read the rules before you stake real money. Outcomes in every format below are down to chance, not strategy, so treat these as entertainment rather than income."
         />
 
-        <div className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="mt-14 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
           {POPULAR_GAMES.map((game) => {
             const Icon = game.icon;
             return (

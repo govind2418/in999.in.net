@@ -9,6 +9,7 @@ import {
   TrendingUp,
   Trophy,
   Sparkles,
+  Plane,
   CalendarDays,
   Gamepad2,
   BadgePercent,
@@ -23,6 +24,7 @@ export type GameCategory = {
 
 export const POPULAR_GAMES: GameCategory[] = [
   { name: "WinGo", description: "Colour prediction, fast rounds", icon: Dice5 },
+  { name: "Aviator", description: "Crash-style multiplier round", icon: Plane },
   { name: "K3", description: "Classic dice strategy game", icon: Boxes },
   { name: "5D", description: "Multi-digit number predictions", icon: Grid3x3 },
   { name: "TRX", description: "Blockchain powered fairness", icon: TrendingUp },
