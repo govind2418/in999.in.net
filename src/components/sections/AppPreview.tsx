@@ -33,9 +33,9 @@ const PREVIEW_SHOTS: PreviewShot[] = [
   {
     src: "/images/in999-first-gift-terms.webp",
     alt: "IN999 first gift bonus terms and conditions screen",
-    title: "First Gift Bonus Terms",
+    title: "First Deposit Bonus",
     description:
-      "This screen spells out the fine print behind the new-member gift: a 30% compensation on your first deposit, capped at ₹100, tied to a fixed start date. It's a good example of why we keep saying to read bonus terms before opting in — the headline number and the actual capped payout are rarely the same figure.",
+      "New players can explore the IN999 First Deposit Bonus, which may provide additional rewards on eligible first deposits, subject to the platform's current promotional terms. Before claiming any offer, review the bonus conditions, eligibility requirements, reward limits, and expiry details to understand how the promotion works.",
     linkLabel: "Read the IN999 bonus guide",
     href: "/in999-bonus",
   },
